@@ -29,10 +29,12 @@ All tasks are stored locally in a JSON file
 ## 📦 Installation :
 
 1. clone this repo anywhere
-2. create a Symlink of this repo to ~/.local/bin
+2. Give executable permission
+3. create a Symlink of this repo to ~/.local/bin
 
 ```
 > git clone https://VigneshwaranK08//TaskMate.git
+> chmod +x TaskMate.py # ( after > cd TaskMate)
 > sudo ln -s <path where u cloned> ~/.local/bin/taskmate
 ```
 
