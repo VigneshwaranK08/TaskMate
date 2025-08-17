@@ -48,12 +48,12 @@ Here are the main commands TaskMate supports:
 - Add a Task
 
 ```
-TaskMate add <TaskName> 
+taskmate add <TaskName> 
 ```
 (optional)
 
 ```
-TaskMate add <TaskName> -d <description> -s <status> -p <priority>
+taskmate add <TaskName> -d <description> -s <status> -p <priority>
 ```
 Note : status only accepts ['in-progress','done','todo'] defult = todo
 
@@ -63,19 +63,19 @@ Priority only accepts ["low","medium","high"] default="low"
     - Update Name
 
     ```
-    TaskMate update <TaskId> -n <NewTaskName>
+    taskmate update <TaskId> -n <NewTaskName>
     ```
 
     - Update Description
 
     ```
-    TaskMate update <TaskId> -d <NewTaskDescription>
+    taskmate update <TaskId> -d <NewTaskDescription>
     ```
 
     - Update Priority
 
     ```
-    TaskMate update <TaskId> -p <NewTaskPriority>
+    taskmate update <TaskId> -p <NewTaskPriority>
     ```
 Note: All the above 3 flags can also be used at the same time 
 
@@ -84,21 +84,21 @@ Note: All the above 3 flags can also be used at the same time
     - List All Task
 
     ```
-    TaskMate list
+    taskmate list
     ```
 
     - List Task Based on their Status
 
     ```
-    TaskMate List done 
+    taskmate List done 
     ```
 
     ```
-    TaskMate List in-progress 
+    taskmate List in-progress 
     ```
 
     ```
-    TaskMate List todo 
+    taskmate List todo 
     ```
 
 - Delete Task's
@@ -106,17 +106,17 @@ Note: All the above 3 flags can also be used at the same time
     - Delete Task By Providing Their Id
 
     ```
-    TaskMate delete <TaskId>
+    taskmate delete <TaskId>
     ```
     - Delete all Task
 
     ```
-    TaskMate delete
+    taskmate delete
     ```
 - Change the Status of a Task
 
 ```
-TaskMate mark <TaskId> <NewStatus>
+taskmate mark <TaskId> <NewStatus>
 ```
 The New Status only accepts done , todo , in-progress
 
@@ -126,23 +126,23 @@ The New Status only accepts done , todo , in-progress
     - todo - in-progress -done
 
     ```
-    TaskMate sort -s
+    taskmate sort -s
     ```
     - done - in-progress - done
 
     ```
-    TaskMate sort -S
+    taskmate sort -S
     ```
 - Sort Tasks based on their Priority
     - high - medium - low
 
     ```
-    TaskMate sort -p
+    taskmate sort -p
     ```
     - low - medium - high
 
     ```
-    TaskMate sort -P
+    taskmate sort -P
     ```
 </details>
 
