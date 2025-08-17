@@ -35,7 +35,7 @@ All tasks are stored locally in a JSON file
 ```
 > git clone https://VigneshwaranK08//TaskMate.git
 > chmod +x TaskMate.py # ( after > cd TaskMate)
-> sudo ln -s <path where u cloned>/TaskMate ~/.local/bin/taskmate
+> sudo ln -s <path where u cloned>/TaskMate/TaskMate.py ~/.local/bin/taskmate
 ```
 
 
