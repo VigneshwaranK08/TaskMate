@@ -27,11 +27,10 @@ SubParser = Parser.add_subparsers(title="Sub-Commands",help="Commands to perform
 
 def CurrentTime():
     x = datetime.now()
-    TimeStr = "%s %s %s %s %s:%s %s"
+    TimeStr = "%s %s %s %s:%s %s"
     TimeVal = (x.strftime('%d'),
                x.strftime('%b'),
-               x.strftime('%Y'),
-               x.strftime('%a'),
+               x.strftime('%y'),
                x.strftime('%I'),
                x.strftime('%M'),
                x.strftime('%p'))
